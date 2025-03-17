@@ -1,0 +1,302 @@
+[
+    {
+        "model_name": "BERT",
+        "quantized": false,
+        "batch_sizes": [
+            1,
+            4,
+            16
+        ],
+        "pytorch": [
+            {
+                "batch_size": 1,
+                "inference_time": 13.897464776039124,
+                "emissions": null,
+                "memory_usage_mb": 2034.5234375
+            },
+            {
+                "batch_size": 4,
+                "inference_time": 11.014026641845703,
+                "emissions": null,
+                "memory_usage_mb": 2012.625
+            },
+            {
+                "batch_size": 16,
+                "inference_time": 10.179773235321045,
+                "emissions": null,
+                "memory_usage_mb": 2012.625
+            }
+        ],
+        "onnx": [
+            {
+                "batch_size": 1,
+                "inference_time": 12.236352682113647,
+                "emissions": null,
+                "memory_usage_mb": 2012.69921875
+            },
+            {
+                "batch_size": 4,
+                "inference_time": 11.98975841999054,
+                "emissions": null,
+                "memory_usage_mb": 2012.69921875
+            },
+            {
+                "batch_size": 16,
+                "inference_time": 12.302410960197449,
+                "emissions": null,
+                "memory_usage_mb": 2012.69921875
+            }
+        ],
+        "cpp": []
+    },
+    {
+        "model_name": "BERT",
+        "quantized": true,
+        "batch_sizes": [
+            1,
+            4,
+            16
+        ],
+        "pytorch": [
+            {
+                "batch_size": 1,
+                "inference_time": 14.00399935245514,
+                "emissions": null,
+                "memory_usage_mb": 1925.828125
+            },
+            {
+                "batch_size": 4,
+                "inference_time": 10.57227532863617,
+                "emissions": null,
+                "memory_usage_mb": 1925.828125
+            },
+            {
+                "batch_size": 16,
+                "inference_time": 10.10389792919159,
+                "emissions": null,
+                "memory_usage_mb": 1925.828125
+            }
+        ],
+        "onnx": [
+            {
+                "batch_size": 1,
+                "inference_time": 15.400174832344055,
+                "emissions": null,
+                "memory_usage_mb": 1925.953125
+            },
+            {
+                "batch_size": 4,
+                "inference_time": 13.69098265171051,
+                "emissions": null,
+                "memory_usage_mb": 1925.953125
+            },
+            {
+                "batch_size": 16,
+                "inference_time": 15.760213279724121,
+                "emissions": null,
+                "memory_usage_mb": 1902.30078125
+            }
+        ],
+        "cpp": []
+    },
+    {
+        "model_name": "DistilBERT",
+        "quantized": false,
+        "batch_sizes": [
+            1,
+            4,
+            16
+        ],
+        "pytorch": [
+            {
+                "batch_size": 1,
+                "inference_time": 6.874810767173767,
+                "emissions": null,
+                "memory_usage_mb": 1738.25390625
+            },
+            {
+                "batch_size": 4,
+                "inference_time": 5.9778153657913204,
+                "emissions": null,
+                "memory_usage_mb": 1738.25390625
+            },
+            {
+                "batch_size": 16,
+                "inference_time": 5.215623736381531,
+                "emissions": null,
+                "memory_usage_mb": 1738.25390625
+            }
+        ],
+        "onnx": [
+            {
+                "batch_size": 1,
+                "inference_time": 6.05769636631012,
+                "emissions": null,
+                "memory_usage_mb": 1738.48828125
+            },
+            {
+                "batch_size": 4,
+                "inference_time": 6.00023078918457,
+                "emissions": null,
+                "memory_usage_mb": 1738.48828125
+            },
+            {
+                "batch_size": 16,
+                "inference_time": 6.421789693832397,
+                "emissions": null,
+                "memory_usage_mb": 1738.48828125
+            }
+        ],
+        "cpp": []
+    },
+    {
+        "model_name": "DistilBERT",
+        "quantized": true,
+        "batch_sizes": [
+            1,
+            4,
+            16
+        ],
+        "pytorch": [
+            {
+                "batch_size": 1,
+                "inference_time": 6.90203332901001,
+                "emissions": null,
+                "memory_usage_mb": 1738.65625
+            },
+            {
+                "batch_size": 4,
+                "inference_time": 5.176742196083069,
+                "emissions": null,
+                "memory_usage_mb": 1738.65625
+            },
+            {
+                "batch_size": 16,
+                "inference_time": 5.175769662857055,
+                "emissions": null,
+                "memory_usage_mb": 1738.65625
+            }
+        ],
+        "onnx": [
+            {
+                "batch_size": 1,
+                "inference_time": 8.124260783195496,
+                "emissions": null,
+                "memory_usage_mb": 1734.75
+            },
+            {
+                "batch_size": 4,
+                "inference_time": 6.863595604896545,
+                "emissions": null,
+                "memory_usage_mb": 1734.75
+            },
+            {
+                "batch_size": 16,
+                "inference_time": 7.384719109535217,
+                "emissions": null,
+                "memory_usage_mb": 1734.75
+            }
+        ],
+        "cpp": []
+    },
+    {
+        "model_name": "TinyBERT",
+        "quantized": false,
+        "batch_sizes": [
+            1,
+            4,
+            16
+        ],
+        "pytorch": [
+            {
+                "batch_size": 1,
+                "inference_time": 0.23734917640686035,
+                "emissions": null,
+                "memory_usage_mb": 1498.30859375
+            },
+            {
+                "batch_size": 4,
+                "inference_time": 0.18482213020324706,
+                "emissions": null,
+                "memory_usage_mb": 1498.30859375
+            },
+            {
+                "batch_size": 16,
+                "inference_time": 0.17642321586608886,
+                "emissions": null,
+                "memory_usage_mb": 1498.30859375
+            }
+        ],
+        "onnx": [
+            {
+                "batch_size": 1,
+                "inference_time": 0.2730245113372803,
+                "emissions": null,
+                "memory_usage_mb": 1498.30859375
+            },
+            {
+                "batch_size": 4,
+                "inference_time": 0.35633087158203125,
+                "emissions": null,
+                "memory_usage_mb": 1498.30859375
+            },
+            {
+                "batch_size": 16,
+                "inference_time": 0.2987300157546997,
+                "emissions": null,
+                "memory_usage_mb": 1498.30859375
+            }
+        ],
+        "cpp": []
+    },
+    {
+        "model_name": "TinyBERT",
+        "quantized": true,
+        "batch_sizes": [
+            1,
+            4,
+            16
+        ],
+        "pytorch": [
+            {
+                "batch_size": 1,
+                "inference_time": 0.23476457595825195,
+                "emissions": null,
+                "memory_usage_mb": 1498.375
+            },
+            {
+                "batch_size": 4,
+                "inference_time": 0.18289177417755126,
+                "emissions": null,
+                "memory_usage_mb": 1498.375
+            },
+            {
+                "batch_size": 16,
+                "inference_time": 0.17376108169555665,
+                "emissions": null,
+                "memory_usage_mb": 1498.375
+            }
+        ],
+        "onnx": [
+            {
+                "batch_size": 1,
+                "inference_time": 0.3496007680892944,
+                "emissions": null,
+                "memory_usage_mb": 1498.375
+            },
+            {
+                "batch_size": 4,
+                "inference_time": 0.3848740100860596,
+                "emissions": null,
+                "memory_usage_mb": 1498.375
+            },
+            {
+                "batch_size": 16,
+                "inference_time": 0.27262191772460936,
+                "emissions": null,
+                "memory_usage_mb": 1498.375
+            }
+        ],
+        "cpp": []
+    }
+]

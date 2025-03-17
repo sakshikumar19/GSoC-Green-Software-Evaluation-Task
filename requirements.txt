@@ -1,0 +1,13 @@
+codecarbon
+py-cpuinfo
+onnxruntime
+onnx
+torch
+numpy
+pandas
+matplotlib
+scikit-learn
+transformers
+tensorflow
+tqdm
+bitsandbytes
