@@ -38,7 +38,6 @@ The results demonstrate that **TinyBERT-Quantized** is the most energy-efficient
 │       └── performance_metrics_scatter.png # Scatter plot of performance metrics
 ├── arxiv_data.csv                     # Dataset of arXiv papers
 ├── bert_models_benchmark.json         # Benchmark results for all models
-├── idk.py                             # Utility functions
 ├── inference.ipynb                    # Notebook for inference testing
 ├── large_scale_multi_text_classification.ipynb # Notebook for training regular models
 ├── LICENSE                            # Project license
